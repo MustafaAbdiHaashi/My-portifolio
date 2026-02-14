@@ -1,4 +1,4 @@
-// Email functionality updated and verified
+// Email functionality: Code is sending 'from_name', 'from_email', and 'message' to EmailJS.
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";

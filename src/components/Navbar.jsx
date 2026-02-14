@@ -40,7 +40,7 @@ const Navbar = () => {
                         window.scrollTo(0, 0);
                     }}
                 >
-                    <img src="https://placehold.co/100x100/1e1e1e/FFF?text=M" alt='logo' className='w-9 h-9 object-contain rounded-full' />
+                    <img src="/logo.svg" alt='logo' className='w-9 h-9 object-contain' />
                     <p className='text-white text-[18px] font-bold cursor-pointer flex '>
                         Mustafa &nbsp;
                         <span className='sm:block hidden'> | Full Stack Developer</span>

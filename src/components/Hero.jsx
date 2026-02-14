@@ -49,7 +49,7 @@ const Hero = () => {
                             Contact Me <Send size={18} />
                         </a>
                         <a
-                            href="https://drive.google.com/file/d/1R30QhR1kqKiY_kNryqPFaAwvkuo8akN4/view?usp=drive_link"
+                            href="https://drive.google.com/uc?export=download&id=1R30QhR1kqKiY_kNryqPFaAwvkuo8akN4"
                             target="_blank"
                             rel="noreferrer"
                             className="bg-transparent border-2 border-secondary text-white px-8 py-3 rounded-xl font-bold hover:bg-white hover:text-primary transition-all duration-300 flex items-center gap-2 hover:-translate-y-1"

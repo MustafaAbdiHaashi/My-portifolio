@@ -39,28 +39,15 @@ const Contact = () => {
             return;
         }
 
-        // Check if using placeholder keys - trigger mailto immediately to avoid popup blockers
-        // The service ID 'service_rx8u01f' is a placeholder. If it matches, we assume keys are not set.
-        if ('service_rx8u01f' === 'service_rx8u01f') {
-            setLoading(false);
-            const mailtoLink = `mailto:cabdimustafe708@gmail.com?subject=Portfolio Contact from ${form.name}&body=${encodeURIComponent(form.message)}\n\n(Sent via Portfolio Fallback)`;
-            window.location.href = mailtoLink;
-            setStatus({
-                message: "Opening your email client to send the message...",
-                type: "success"
-            });
-            return;
-        }
-
         emailjs
             .send(
-                'service_rx8u01f',
-                'template_q4n35yg',
+                'service_gymfylu',
+                'template_16gpxdi',
                 {
                     from_name: form.name,
                     to_name: "Mustafa",
                     from_email: form.email,
-                    to_email: "cabdimustafe708@gmail.com", // This is just metadata for the template
+                    to_email: "cabdimustafe708@gmail.com",
                     message: form.message,
                 },
                 'H-N8kC2tW7qJz_1v-'
@@ -68,7 +55,7 @@ const Contact = () => {
             .then(
                 () => {
                     setLoading(false);
-                    setStatus({ message: "Thank you. I will get back to you as soon as possible.", type: "success" });
+                    setStatus({ message: "Thank you! Your message has been sent successfully.", type: "success" });
 
                     setForm({
                         name: "",
@@ -79,15 +66,9 @@ const Contact = () => {
                 (error) => {
                     setLoading(false);
                     console.error(error);
-
-                    // Fallback to mailto
-                    const mailtoLink = `mailto:cabdimustafe708@gmail.com?subject=Portfolio Contact from ${form.name}&body=${encodeURIComponent(form.message)}\n\n(Sent via Portfolio Fallback)`;
-
-                    window.location.href = mailtoLink;
-
                     setStatus({
-                        message: "Email service requires configuration. Opening your email client...",
-                        type: "success" // Showing as success since we are redirecting
+                        message: "Something went wrong while sending the email. Please check your EmailJS configuration.",
+                        type: "error"
                     });
                 }
             );

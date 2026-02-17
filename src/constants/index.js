@@ -189,6 +189,27 @@ const projects = [
         image: "https://placehold.co/600x400/1e1e1e/FFF?text=POS+System",
         source_code_link: "https://github.com/MustafaAbdiHaashi/Pos-System",
     },
+    {
+        name: "Weather App",
+        description:
+            "A sleek and responsive weather application that provides real-time weather data and forecasts using vanilla JavaScript and weather APIs.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: "https://placehold.co/600x400/1e1e1e/FFF?text=Weather+App",
+        source_code_link: "https://github.com/MustafaAbdiHaashi/Weather-App",
+    },
 ];
 
 export { services, technologies, experiences, projects };

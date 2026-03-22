@@ -1,0 +1,37 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" rx="20" fill="#050816"/>
+  
+  <!-- Glassmorphism Card -->
+  <rect x="50" y="50" width="500" height="300" rx="15" fill="white" fill-opacity="0.05" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+  
+  <!-- Header -->
+  <text x="80" y="90" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Expense Tracker</text>
+  <text x="420" y="90" fill="#915EFF" font-family="Arial, sans-serif" font-size="16" font-weight="bold">March 2026</text>
+  
+  <!-- Main Balance -->
+  <text x="80" y="140" fill="#aaa" font-family="Arial, sans-serif" font-size="14">Total Balance</text>
+  <text x="80" y="175" fill="white" font-family="Arial, sans-serif" font-size="32" font-weight="bold">$12,450.50</text>
+  
+  <!-- Charts / Stats -->
+  <circle cx="450" cy="200" r="60" stroke="#915EFF" stroke-width="12" fill="none" stroke-dasharray="280 100"/>
+  <circle cx="450" cy="200" r="60" stroke="#38BDF8" stroke-width="12" fill="none" stroke-dasharray="80 300" stroke-dashoffset="-280"/>
+  <text x="425" y="205" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Stats</text>
+  
+  <!-- Recent Transactions -->
+  <text x="80" y="220" fill="#aaa" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Recent Transactions</text>
+  
+  <!-- Item 1 -->
+  <rect x="80" y="240" width="280" height="40" rx="8" fill="white" fill-opacity="0.03"/>
+  <text x="95" y="265" fill="white" font-family="Arial, sans-serif" font-size="12">Groceries</text>
+  <text x="290" y="265" fill="#EF4444" font-family="Arial, sans-serif" font-size="12" font-weight="bold">-$120.00</text>
+  
+  <!-- Item 2 -->
+  <rect x="80" y="290" width="280" height="40" rx="8" fill="white" fill-opacity="0.03"/>
+  <text x="95" y="315" fill="white" font-family="Arial, sans-serif" font-size="12">Freelance Work</text>
+  <text x="270" y="315" fill="#22C55E" font-family="Arial, sans-serif" font-size="12" font-weight="bold">+$2,500.00</text>
+  
+  <!-- Accents -->
+  <circle cx="500" cy="100" r="40" fill="#915EFF" fill-opacity="0.1" filter="blur(20px)"/>
+  <circle cx="100" cy="300" r="50" fill="#38BDF8" fill-opacity="0.1" filter="blur(30px)"/>
+</svg>

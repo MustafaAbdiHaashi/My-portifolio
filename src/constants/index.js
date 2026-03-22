@@ -249,7 +249,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "https://placehold.co/600x400/050816/aaa?text=Expense+Tracker",
+        image: "/expense-tracker.svg",
         source_code_link: "https://github.com/MustafaAbdiHaashi/Expense-Tracker",
     },
 ];

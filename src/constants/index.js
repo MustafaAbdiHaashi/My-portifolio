@@ -237,15 +237,15 @@ const projects = [
             "A high-performance expense tracking application that helps users manage their finances with real-time data visualization and budget tracking.",
         tags: [
             {
-                name: "React",
+                name: "HTML",
                 color: "blue-text-gradient",
             },
             {
-                name: "Node.js",
+                name: "CSS",
                 color: "green-text-gradient",
             },
             {
-                name: "Tailwind",
+                name: "JAVASCRIPT",
                 color: "pink-text-gradient",
             },
         ],

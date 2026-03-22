@@ -144,7 +144,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "https://placehold.co/600x400/1e1e1e/FFF?text=E-Learning",
+        image: "/elearning.png",
         source_code_link: "https://github.com/MustafaAbdiHaashi/E-learning-App",
     },
     {
@@ -165,7 +165,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "https://placehold.co/600x400/1e1e1e/FFF?text=Pharmacy+System",
+        image: "/pharmacy.png",
         source_code_link: "https://github.com/MustafaAbdiHaashi/Pharmacy_system",
     },
     {
@@ -186,7 +186,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "https://placehold.co/600x400/1e1e1e/FFF?text=POS+System",
+        image: "/pos.png",
         source_code_link: "https://github.com/MustafaAbdiHaashi/Pos-System",
     },
     {
@@ -207,8 +207,29 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "https://placehold.co/600x400/1e1e1e/FFF?text=Weather+App",
+        image: "/weather.png",
         source_code_link: "https://github.com/MustafaAbdiHaashi/Weather-App",
+    },
+    {
+        name: "Quote Generator",
+        description:
+            "A dynamic quote generator that displays Somali and English proverbs with a sleek UI and alternating sequences.",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Tailwind",
+                color: "green-text-gradient",
+            },
+            {
+                name: "JavaScript",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: "/quote-generator.png",
+        source_code_link: "https://github.com/MustafaAbdiHaashi/Quote-generator",
     },
 ];
 

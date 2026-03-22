@@ -231,6 +231,27 @@ const projects = [
         image: "/quote-generator.png",
         source_code_link: "https://github.com/MustafaAbdiHaashi/Quote-generator",
     },
+    {
+        name: "Expense Tracker",
+        description:
+            "A high-performance expense tracking application that helps users manage their finances with real-time data visualization and budget tracking.",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Node.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: "https://placehold.co/600x400/050816/aaa?text=Expense+Tracker",
+        source_code_link: "https://github.com/MustafaAbdiHaashi/Expense-Tracker",
+    },
 ];
 
 export { services, technologies, experiences, projects };
